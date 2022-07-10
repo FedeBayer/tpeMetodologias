@@ -1,0 +1,340 @@
+/* Ellipse 1 */
+
+/*Titulo*/
+body{
+  background: #ced3ce;
+}
+
+*{
+  margin: 0;
+}
+
+.hiden{
+  display: none;
+}
+
+.titulo{
+  font-size: 300%;
+  color: rgba(0, 177, 118, 0.89);
+  margin: 2.5% 20%;
+  margin-left: 30%;
+}
+
+button, .inputHora{
+margin-left: 190px;
+cursor: pointer;
+border-radius: 25px;
+border: none;
+width: 180px;
+color: #128172;
+left: 267.55px;
+margin-top: 49px;
+padding: 15px;
+}
+
+label{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.medicostyle{
+  margin-left: 70px;
+}
+section{
+  justify-content:  center;
+  margin-top: 100px;
+  display: flex;
+}
+img{
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.imgMedico{
+  justify-content: left;
+  margin-top: 0;
+  margin-left: 0;
+  height: 80px;
+  display: flex;
+}
+
+.turnosDisponibles{
+  background-color: #C5DFDC;
+  height: 40px;
+  margin-top: 70px;
+  text-align: center;
+  width: 100%;
+  color: #1C6F64;
+}
+.listHoras{
+  display: flex;
+}
+
+.confirmButton{
+  text-align: center;
+}
+
+.button{
+  margin-left: 0;
+}
+
+.divHoras{
+  margin-left: 90px;
+  border: 1px solid #00BFA6;
+  color: #046F61;
+  padding: 10px;
+}
+
+input{
+  border: none;
+text-decoration: underline;
+}
+.interiorDiv{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+a, li{
+  list-style-type: none;
+}
+nav{
+margin: 0;
+height: 166px;
+left: 0px;
+top: 0px;
+background: #00BFA6;
+display: flex;
+
+}
+
+button, .inputHora{
+margin-left: 190px;
+cursor: pointer;
+border-radius: 25px;
+border: none;
+width: 180px;
+color: #128172;
+left: 267.55px;
+margin-top: 49px;
+padding: 15px;
+}
+
+label{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.medicostyle{
+  margin-left: 70px;
+}
+section{
+  justify-content:  center;
+  margin-top: 100px;
+  display: flex;
+}
+img{
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.imgMedico{
+  justify-content: left;
+  margin-top: 0;
+  margin-left: 0;
+  height: 80px;
+  display: flex;
+}
+
+.turnosDisponibles{
+  background-color: #C5DFDC;
+  height: 40px;
+  margin-top: 70px;
+  text-align: center;
+  width: 100%;
+  color: #1C6F64;
+}
+.listHoras{
+  display: flex;
+}
+
+.confirmButton{
+  text-align: center;
+}
+
+.button{
+  margin-left: 0;
+}
+
+.divHoras{
+  margin-left: 90px;
+  border: 1px solid #00BFA6;
+  color: #046F61;
+  padding: 10px;
+}
+
+input{
+  border: none;
+text-decoration: underline;
+}
+.interiorDiv{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+a, li{
+  list-style-type: none;
+}
+nav{
+margin: 0;
+height: 166px;
+left: 0px;
+top: 0px;
+background: #00BFA6;
+display: flex;
+
+}
+
+/*EN PANTALLA DE TURNO CONFIRMADO*/
+.div_turn_confirm{
+  margin: 30px auto 30px auto;
+  padding: 50px;
+  background-color: #00BFA6;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.div_turn_confirm>p{
+  margin: 20px auto 20px auto;
+}
+
+.btn_print_confirm{
+  margin: auto;
+  height: 50px;
+  padding-top: 0;
+}
+
+
+
+/*PANTALLA DE SECRETARIA */
+.secretaria{
+  background-color: #c3e6cb;
+  display: block;
+  margin: 0px auto;
+  margin: 30px auto 30px auto;
+  padding: 20px;
+}
+
+.img-secretaria{
+  display: block;
+  margin: 0px auto;
+}
+.nombre{
+  color : black;
+  font-size: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.table-admin {
+  margin: 5% auto;
+  margin-bottom: 10%;
+  width: 90%;
+  color:rgba(247, 238, 238, 0.692);
+}
+.color-fondo{
+  margin-top: -100px;
+ background-color: #94aa9a;
+}
+.login-Falso{
+  color: white;
+}
+/*Login*/
+.login-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-form-1{
+  padding: 5%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  color: #333;
+}
+.login-form-2{
+  padding: 5%;
+  background: #0062cc;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+  text-align: center;
+  color: #fff;
+}
+.login-container form{
+  padding: 10%;
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+  font-weight: 600;
+  color: #fff;
+  background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+  font-weight: 600;
+  color: #0062cc;
+  background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+.colorLogin{
+  background-color: #a6daaa;
+}
+
+.div_cont_verTurno_crearTurno{
+  display: flex;
+}
+.table-admin{
+  margin: auto;
+}
+
+.contenedor_formulario_agregar_turno{
+  width: 85%;
+  height: 500px;
+  background-color: #00BFA6;
+  margin: auto;
+}
+/*FORMULARIO CARGAR TURNO */
+
+.form_agregar_turno{
+  display: block;
+}
+form > legend{
+  text-align: center;
+}
+
+form > button{
+  margin: auto;
+}
+
+.div_select_medicos{
+  width: auto;
+}
